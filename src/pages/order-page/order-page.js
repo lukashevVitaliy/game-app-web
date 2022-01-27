@@ -11,7 +11,7 @@ export const OrderPage = () => {
 	const items = useSelector(state => state.cart.itemsInCart);
 
 	if (items < 1) {
-		return <h1>Ваша корзина пуста</h1>
+		return <h2>Ваша корзина пуста</h2>
 	}
 
 	return (

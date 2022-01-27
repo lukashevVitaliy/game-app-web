@@ -20,3 +20,10 @@
 		font-weight: 700;
 	}
 }
+
+@media screen and (max-width: 540px) {
+	.cart-menu {
+		width: 290px;
+		left: -150px;
+	}
+}

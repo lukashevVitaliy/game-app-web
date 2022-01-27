@@ -15,3 +15,36 @@
 		margin-left: auto;
 	}
 }
+
+@media screen and (max-width: 768px) {
+	.order-item {
+		flex-wrap: wrap;
+		&__cover {
+			width: 290px;
+		}
+		&__title,
+		&__price {
+			font-size: 16px;
+		}
+		&__title {
+			width: 150px;
+			margin-top: 10px;
+		}
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.order-item {
+		&__cover {
+			width: 100%;
+		}
+		&__title,
+		&__price {
+			font-size: 14px;
+		}
+		&__title {
+			width: 150px;
+			margin-top: 10px;
+		}
+	}
+}

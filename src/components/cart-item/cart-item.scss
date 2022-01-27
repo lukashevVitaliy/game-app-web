@@ -13,3 +13,13 @@
 		cursor: pointer;
 	}
 }
+
+@media screen and (max-width: 540px) {
+	.cart-item {
+		align-items: flex-end;
+		p {
+			width: 150px;
+			margin-right: 20px;
+		}
+	}
+}
