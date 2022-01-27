@@ -1,0 +1,16 @@
+.home-page {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(320px, auto));
+	grid-template-rows: repeat(2, minmax(300px, auto));
+	grid-auto-rows: minmax(300px, auto);
+	row-gap: 30px;
+	column-gap: 50px;
+	justify-content: space-between;
+	align-items: center;
+	&__error {
+		font-size: 18px;
+		font-weight: 700;
+		text-align: center;
+		color: red;
+	}
+}

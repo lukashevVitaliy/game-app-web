@@ -1,0 +1,31 @@
+@import "../../styles/variables.scss";
+
+.game-item {
+	position: relative;
+	color: $main-color;
+	width: 320px;
+	height: 100%;
+	background-color: rgb(36, 37, 41);
+	border-radius: 15px;
+	cursor: pointer;
+	transition: 0.3s all;
+	&__details {
+		padding: 10px 20px 40px;
+	}
+	&__title {
+		font-size: 18px;
+		font-weight: 700;
+	}
+	&__description {
+		font-style: 14px;
+	}
+	&__buy {
+		position: absolute;
+		right: 20px;
+		bottom: 10px;
+	}
+	&:hover {
+		box-shadow: 0 0 15px 3px #fff;
+		transform: scale(0.98);
+	}
+}

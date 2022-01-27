@@ -1,0 +1,16 @@
+@import "../../styles/variables.scss";
+
+.cart-block {
+	position: relative;
+	display: flex;
+	align-items: center;
+	&__icon {
+		position: relative;
+		cursor: pointer;
+	}
+	&__total-price {
+		margin-left: 15px;
+		font-size: 18px;
+		font-weight: 700;
+	}
+}
